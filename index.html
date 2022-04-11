@@ -2,47 +2,94 @@
 <html>
 <head>
 <meta charset='utf-8'>
-<title>회원 가입</title>
+<style>
+table, th, tr, td {
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 8px;
+}
+</style>
 </head>
 <body>
-<h3>회원 가입</h3>
-    <form action="https://www.naver.com/">
-        -이름: <input type="text"><br><br>
-        -비밀번호<input type="password">
-        <br><br><br><br>
+<h3>2022-1 시간표</h3>
 
-        -성별:
-        <input type="radio" name="info"> 남성
-        <input type="radio" name="info"> 여성
+<table>
 
-        <br><br>
-        -취미:
-        <input type="checkbox">영화감상
-        <input type="checkbox">게임
-        <input type="checkbox">음악듣기
-        
-        <br><br>
+<tr>
+	<th>    </th>
+	<th>월</th>
+	<th>화</th>
+	<th>수</th>
+	<th>목</th>
+	<th>금</th>
+	<th>토</th>
+</tr>
+<tr>
+	<th>9:30</th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>마케팅의 이해(벤교302-e)</th>
+</tr>
+<tr>
+	<th>10:30</th>
+	<th>  </th>
+	<th rowspan="2">디지털기술의 이해(1호관202-e)</th>
+	<th>  </th>
+	<th>디지털콘텐츠비즈니스개론(창업)(벤교302-e)</th>
+	<th rowspan="2">디지털콘텐츠제작의 이해1(1호관209)</th>
+	<th>웹프로그래밍(1호관209)</th>
+</tr>
+<tr>
+	<th>11:30</th>
+	<th>  </th>
+	<th>  </th>
+	<th rowspan="2">마케팅의 이해(벤교302-e)</th>
+	<th>  </th>
+	
+</tr>
+<tr>
+	<th>12:30</th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	
+</tr>
+<tr>
+	<th>13:30</th>
+	<th>  </th>
+	<th rowspan="2">웹프로그래밍(1호관209)</th>
+	<th>  </th>
+	<th rowspan="2">디지털콘텐츠비즈니스개론(창업)(벤교302-e)</th>
+	<th>디지털콘텐츠제작의 이해1(1호관209)</th>
+	
+</tr>
+<tr>
+	<th>14:30</th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>디지털기술의 이해(1호관202-e)</th>
+</tr>
 
-        -파일 첨부:
-        <input type="file">
+<tr>
+	<th>15:30</th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	<th>  </th>
+	
+</tr>
+</table>
 
-        <br><br>
-
-        -이메일: <input type="text">@
-        <select>
-            <option>선택</option>
-            <option>naver.com</option>
-            <option>daum.net</option>
-            <option>gmail.com</option>
-        </select>
-
-        <br><br>
-        -자기소개:
-        <textarea row="10" col="100"></textarea>
-
-        <hr>
-        <input type="submit" value="확인">
-        <input type="reset" value="취소">
-    </form>
+<hr>
+<form action="회원가입 페이지.html">
+	<input type="submit" value="회원가입">
+</form>
 </body>
 </html>

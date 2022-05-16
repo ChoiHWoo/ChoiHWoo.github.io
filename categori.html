@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>categori</title>
+<style>
+	*{padding:0px; margin:0px;}
+
+	header,nav,section,aside,footer {border:solid 1px red;}
+
+	header {width:995px; height:100px; margin-top:10px; background-color: yellow;}
+    
+    nav {width:995px; height:70px; margin-top:10px; text-align: center; margin-bottom:10px; background-color: beige;}
+
+	section {width:995px; height:240px; margin-top:10px; background-color: beige; font-size:38px;}
+
+	footer {width:995px; height:200px; margin-top: 10px; background-color: beige;}
+
+	aside {width:995px; height:20px; margin-top:10px; background-color: yellow;}
+
+	body{font-family:'여기어때 잘난체';}
+	a:link { text-decoration:none;
+    color:red;}
+    a:visited {text-decoration:none;
+    color: red;}
+    a:hover{text-decoration:none;
+    color:crimson;}
+
+	li{display:inline;float:left;padding:30px; font-size: larger;}
+
+	#top {float:right;}
+
+	.search_wrap{width:500px;
+	margin:1px auto;}
+	.search_wrap .search_box{position:relative;
+	width: 730px;height:35px;
+margin-left:-150px;}
+	.search_wrap .search_box .input{position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	padding:10px 20px;
+	border-radius:3px;
+	font-size:18px;}
+	.search_wrap .search_box .btn{position:absolute;
+	top:0;
+	right:0;
+	width:60px;
+	height:100%;
+	margin-top:-3px;
+	margin-right:-30px;
+	background-color: rgb(252, 4, 4);
+	z-index: 1;
+	cursor: pointer;}
+	
+.search_wrap.search_wrap_2 .search_box .btn{width:140px; height:45px; top:8px;right:5px; border-radius: 3px;
+color:rgb(236, 236, 232);
+font-size:30px;
+display:flex;
+align-items: center;
+justify-content:center;}
+.search_wrap.search_wrap_2 .search_box .btn{border-radius:25px;}
+.search_wrap.search_wrap_2 .search_box .input{border-radius:50px;}
+</style>
+
+</head>
+<body>
+
+<header>
+	<div id="logo">
+		<a href='yumyum main.html'><h1>YumYum</h1></a>
+	</div>
+	<div id="top">
+		<h3><a href='rossi.html'>맛집 검색</a>/ <a href='categori.html'>카테고리</a>/ <a href='community.html'>커뮤니티</a>/ <a href='newsletter.html'>뉴스레터</a></h3>
+	</div>
+</header>
+
+<nav>
+	<div class="wrapper">
+		<div class="header">
+			
+		</div>
+	
+		<div class="container">
+			
+			<div class="search_wrap search_wrap_2">
+				<div class="search_box">
+					<div class="btn btn_common">
+						Search
+					</div>
+					<input type="text" class="input" placeholder="search...">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<section>
+	
+		성별:
+	<input type="radio" name="info">남자
+	<input type="radio" name="info">여자
+	<input type="radio" name="info">모두<br>
+	나이대:
+	<input type="checkbox">0-10대
+	<input type="checkbox">20대
+	<input type="checkbox">30대
+	<input type="checkbox">40대
+	<input type="checkbox">50대
+	<input type="checkbox">60대 이상<br>
+	메뉴:
+	<input type="checkbox">한식
+	<input type="checkbox">중식
+	<input type="checkbox">일식
+	<input type="checkbox">양식
+	<input type="checkbox">기타<br>
+	식사목적:
+	<input type="radio" name="info">단순 식사
+	<input type="radio" name="info">회식
+	<input type="radio" name="info">데이트
+	<input type="radio" name="info">외식
+	<input type="radio" name="info">업무<br>
+	분위기:
+	<input type="checkbox">신나는
+	<input type="checkbox">조용한
+	<input type="checkbox">고급스러운
+	<input type="checkbox">저렴한
+	<input type="checkbox">깔끔한
+
+</section>
+
+<aside> </aside>
+
+</body>
+</html>

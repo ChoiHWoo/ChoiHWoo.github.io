@@ -2,8 +2,24 @@
 <html>
 <head>
 <meta charset='utf-8'>
-<title>2022-1 시간표</title>
+<title>2022-1 웹프로그래밍 개인 홈페이지</title>
 <style>
+	*{padding:0px;
+	margin:0px;}
+	header,nav,section,aside,footer {border:solid 0px red;}
+
+	header{width:1400px; height:100px; margin-top:10px; background-color: #fbd634;}
+
+	nav {width:1400px; height:70px; margin-top:10px; background-color: #fff0b3;}
+
+	section {width:1000px; height:430px; margin-top:10px; float:left; margin-right:29px; background-color: #fff0b3;}
+
+	aside {width:371px; height:430px; margin-top:10px; float:left; background-color: #fff0b3;}
+
+	footer {width:1400px; height:130px; margin-top:10px; background-color: #fbd634;}
+
+	.clear {clear:both;}
+
 	table, th, tr, td {
 		border: solid 1px black;
 		border-collapse: collapse;
@@ -12,12 +28,12 @@
 	}
 	th,td{padding:10px;
 	}
-	table{width:1480px;}
+	table{width:1000px;height:380px;}
 	th{width:380px;
-	height:60px;
+	height:10px;
 	background-color: rgba(162, 149, 185, 0.26);
-	color:rgb(37, 216, 31);
-text-shadow: 2px 5px 10px crimson;}
+	color:#e52f2a;
+text-shadow: 2px 5px 10px #fbd634;}
 	
 	.oran {background-color: rgb(220, 43, 20);
 	color:aliceblue}
@@ -29,164 +45,202 @@ text-shadow: 2px 5px 10px crimson;}
 	.gru{background-color: greenyellow;
 	color:blueviolet}
 	.bla{background-color:rgb(198, 230, 243)}
-	
-	h1 {color:rgb(11, 167, 115);
-	border-left:solid 10px orange;
-text-shadow: 2px 5px 10px blue;}
 
-	td:hover {background-color: rgb(235, 248, 120);}
-	tr:hover {background-color: rgb(227, 255, 103);}
+	.mains{font-size:60px; color:#e52f2a; border-left:solid 15px #fff0b3; padding-left:15px; margin-left:10px;
+	text-shadow: 2px 15px 15px #fff0b3;}
+
+	.pop{margin:15px;}
+	.pap{margin:15px;}
+	.pbp{font-size:40px;color:#e52f2a; margin:15px;}
+
+	.pbp:link { text-decoration:none;
+    color:#e52f2a;}
+    .pbp:visited {text-decoration:none;
+    color:blueviolet;
+text-shadow:2px 2px 15px#e52f2a;}
+    .pbp:hover{text-decoration:none;
+    color:#e52f2a;
+text-shadow:2px 2px 15px#fbd634}
+
+	.foo{color:#e52f2a;font-size:22px;margin-top:37px;}
+	.foot{color:blue;font-size:22px;}
+	.foote{color:#e52f2a;font-size:22px;}
+	.footee{color:#e52f2a;font-size:22px;}
+
+	.footer1{color:#e52f2a}
+	.footer2{padding:10px;}
+	.footer3{float:right;margin-top:-80px;}
+
+	.foo:link { text-decoration:none;
+    color:#e52f2a;}
+    .foo:visited {text-decoration:none;
+    color:blueviolet}
+    .foo:hover{text-decoration:none;
+    color:#e52f2a;}
+
+	.foot:link { text-decoration:none;
+    color:#e52f2a;}
+    .foot:visited {text-decoration:none;
+    color:blueviolet}
+    .foot:hover{text-decoration:none;
+    color:rgb(37, 94, 250);}
+
+	.foote:link { text-decoration:none;
+    color:#e52f2a;}
+    .foote:visited {text-decoration:none;
+    color:blueviolet;}
+    .foote:hover{text-decoration:none;
+    color:#e52f2a;}
+
+	.footee:link { text-decoration:none;
+    color:#e52f2a;}
+    .footee:visited {text-decoration:none;
+    color:green;}
+    .footee:hover{text-decoration:none;
+    color:#e52f2a;}
+
+
+	td:hover {background-color: #fbd634;}
+	tr:hover {background-color: #fbd634;}
 
 	a:link { text-decoration:none;
-    color:rgba(127, 248, 97, 0.842);}
+    color:#e52f2a;}
     a:visited {text-decoration:none;
     color:rgb(255, 180, 17);}
     a:hover{text-decoration:none;
     color:rgb(233, 131, 15);}
 
-	li{border-bottom:dotted 2px rgb(94, 153, 5);
+	body{font-family:'여기어때 잘난체';
+	background-color:#fff0b3;}
+
+	li{border-bottom:dotted 2px #e52f2a;
 	padding-bottom: 5px;
 	margin:5px;
-	text-shadow: 2px 5px 10px skyblue;
+	text-shadow: 2px 5px 10px #fbd634;
     list-style-image: url(arrow.gif);
     font-weight: bold;
 float:left;
-margin-left:10px;}
+margin-left:80px;}
 	
-	ul{border:solid 2px rgb(155, 144, 223);
+	ul{border:solid 2px #e52f2a;
 		border-radius:10px;
 	padding:30px;
-	margin:15px;
-	width:1000px;
+	margin:5px;
+	width:1280px;
 	height:32px;
 	padding-top:15px;
     padding-bottom:10px;}
 
-	td{text-shadow: 2px 5px 10px gray;}
-	span{font-size:50px;}
-	body{font-family:'여기어때 잘난체';
-	background-image:url('background1.png');}
-
-	.ao{font-weight: bold;
-float:left;
-margin-left:-30px;
-margin-bottom:30px;
-border:none;}
-	.do{color:rgb(11, 167, 115);
-	border-left:solid 10px orange;
-text-shadow: 2px 5px 10px blue;
-font-size: 50px;}
-	.bo{color:red;
-	border-left:solid 10px rgb(169, 255, 174);
-text-shadow: 2px 5px 10px blue;
-font-size: 30px;
-margin-left:80px;}
-	.co{color:cornflowerblue;
-	border-left:solid 10px rgb(169, 255, 181);
-text-shadow: 2px 5px 10px blue;
-font-size: 30px;
-margin-left:10px;}
-	</style>
-	</head>
-	<body>
-	<ul class="ao">
-		<li class="do">
-			2022-1학기 시간표
-		</li>
-		<li class="bo">
-			<a href='yumyum main.html'>  팀플 사이트!</a> 
-		</li>
-		<li class="co">
-			<a href="https://www.goodchoice.kr/font#is-fifth">폰트 다운로드!!</a>
-		</li>
+</style>
+</head>
+<body>
+<header>
+<p class="mains" >2022-1 웹프로그래밍 개인 홈페이지</p>
+</header>
+<nav>
+	<ul>
+		<li><a href='회원가입 페이지.html'>[회원가입]</a></li>
+		<li><a href='루바토 펜션 안내.html'>[루바토 펜션 안내]</a></li>
+		<li><a href='ex_border.html'>[호서행사 안내]</a></li>
+		<li><a href='ex_pudding.html'>[야간 개장 안내]</a></li>
+		<li><a href='sale invitation.html'>[세일 안내장]</a></li>
+		<li><a href='schedule.html'>[5월 일정]</a></li>
+		<li><a href='shopping mall.html'>[쇼핑몰]</a></li>
 	</ul>
-	
+</nav>
+<section>
 	<table>
 	
-	<tr>
-		<th>  </th>
-		<th>월</th>
-		<th>화</th>
-		<th>수</th>
-		<th>목</th>
-		<th>금</th>
-		<th>토</th>
-	</tr>
-	<tr>
-		<th>9:30</th>
-		<td class="bla" rowspan="7"> 공강 </td>
-		<td>  </td>
-		<td class="bla" rowspan="7"> 공강</td>
-		<td>  </td>
-		<td>  </td>
-		<td class="gre">마케팅의 이해 <br>(벤교302-e)</td>
-	</tr>
-	<tr>
-		<th>10:30</th>
+		<tr>
+			<th>  </th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+			<th>토</th>
+		</tr>
+		<tr>
+			<th>9:30</th>
+			<td class="bla" rowspan="7"> 공강 </td>
+			<td>  </td>
+			<td class="bla" rowspan="7"> 공강</td>
+			<td>  </td>
+			<td>  </td>
+			<td class="gre">마케팅의 이해 <br>(302)</td>
+		</tr>
+		<tr>
+			<th>10:30</th>
+			
+			<td class="oran" rowspan="2">디지털기술의 이해<br>(202)</td>
+			
+			<td class="blu">디지털콘텐츠비즈니스개론<br>(창업)(209)</td>
+			<td class="gru" rowspan="2">디지털콘텐츠제작의 이해1<br>(209)</td>
+			<td class="yel">웹프로그래밍<br>(209)</td>
+		</tr>
+		<tr>
+			<th>11:30</th>
+			
+			
+			<td class="gre" rowspan="2">마케팅의 이해<br>(302)</td>
+			<td>  </td>
+			
+		</tr>
+		<tr>
+			<th>12:30</th>
+			
+			
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			
+		</tr>
+		<tr>
+			<th>13:30</th>
+			
+			<td class="yel" rowspan="2">웹프로그래밍<br>(209)</td>
+			
+			<td class="blu" rowspan="2">디지털콘텐츠비즈니스개론<br>(창업)(209)</td>
+			<td class="gru">디지털콘텐츠제작의 이해1<br>(209)</td>
+			
+		</tr>
+		<tr>
+			<th>14:30</th>
+			
+			
+			<td>  </td>
+			<td class="oran">디지털기술의 이해<br>(202)</td>
+		</tr>
 		
-		<td class="oran" rowspan="2">디지털기술의 이해<br>(1호관202-e)</td>
-		
-		<td class="blu">디지털콘텐츠비즈니스개론<br>(창업)(벤교302-e)</td>
-		<td class="gru" rowspan="2">디지털콘텐츠제작의 이해1<br>(1호관209)</td>
-		<td class="yel">웹프로그래밍<br>(1호관209)</td>
-	</tr>
-	<tr>
-		<th>11:30</th>
-		
-		
-		<td class="gre" rowspan="2">마케팅의 이해<br>(벤교302-e)</td>
-		<td>  </td>
-		
-	</tr>
-	<tr>
-		<th>12:30</th>
-		
-		
-		<td>  </td>
-		<td>  </td>
-		<td>  </td>
-		
-	</tr>
-	<tr>
-		<th>13:30</th>
-		
-		<td class="yel" rowspan="2">웹프로그래밍<br>(1호관209)</td>
-		
-		<td class="blu" rowspan="2">디지털콘텐츠비즈니스개론<br>(창업)(벤교302-e)</td>
-		<td class="gru">디지털콘텐츠제작의 이해1<br>(1호관209)</td>
-		
-	</tr>
-	<tr>
-		<th>14:30</th>
-		
-		
-		<td>  </td>
-		<td class="oran">디지털기술의 이해<br>(1호관202-e)</td>
-	</tr>
-	
-	<tr>
-		<th>15:30</th>
-		
-		
-		<td>  </td>
-		<td>  </td>
-		<td>  </td>
-		
-	</tr>
-	</table>
-	
-	<hr>
-	
-		<ul>
-			<li><a href='회원가입 페이지.html'>[회원가입]</a></li>
-			<li><a href='루바토 펜션 안내.html'>[루바토 펜션 안내]</a></li>
-			<li><a href='ex_border.html'>[호서행사 안내]</a></li>
-			<li><a href='ex_pudding.html'>[야간 개장 안내]</a></li>
-			<li><a href='sale invitation.html'>[세일 안내장]</a></li>
-			<li><a href='schedule.html'>[5월 일정]</a></li>
-			<li><a href='shopping mall.html'>[쇼핑몰]</a></li>
-		</ul>
-		
-	</form>
-	</body>
-	</html>
+		<tr>
+			<th>15:30</th>
+			
+			
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			
+		</tr>
+		</table>
+</section>
+<aside>
+	 <div class="pop"> <a href='yumyum main.html'>  <img src="main.png" ></div> 팀플 사이트 </a> 
+	 <div class="pap"> <a href="https://www.goodchoice.kr/font#is-fifth">  <img src="font1.png"></div> 폰트 다운로드 </a>
+	 <div class="pbp"> <a class="pbp" href="https://choihwoo.github.io/%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C.html?">자기소개 페이지</a> </div>
+</aside>
+<div class='clear'></div>
+<footer>
+	<div class="foo"> <a class="foo" href="https://choihwoo.github.io/"> https://choihwoo.github.io/</a></div>
+	<div class="foot"> <a class="foot" href="https://choihwoo.github.io/%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C.html?"> 이름:최형우</a>/학번:00000000/</div>
+	<div class="foote"> 전화:041-560-8114</div>
+	<div class="footee"> <a class="footee" href="http://www.hoseo.ac.kr/Home/Main.mbz"> 주소:천안시 동남구 호서대길 12</a></div>
+
+	<div class="footer3">
+	<div class="footer1">전화번호:010-0000-0000</div>
+	<div class="footer2"> <a href="https://www.facebook.com/"> <img src="facebook.png" width="50"></a>&nbsp;&nbsp;
+		 <a href="https://www.instagram.com/"> <img src="insta.png" width="50"></a>&nbsp;&nbsp;
+		 <a href="https://www.kakaocorp.com/page/service/service/KakaoTalk"> <img src="kakao.png" width="50"></a></div>
+</div>
+</footer>
+</body>
+</html>

@@ -12,19 +12,42 @@
     
     nav {width:995px; height:70px; margin-top:10px; ;text-align: center; background-color: #fff0b3;}
 
-	section {width:290px; height:300px; margin-top:10px;float:left; margin-right:29px; background-color:#fff0b3;}
+	section {width:290px; height:350px; margin-top:10px;float:left; margin-right:29px; background-color:#fff0b3;}
 
-	aside {width:674px; height:300px; margin-top:10px; float:left; background-color: #fff0b3;}
+	aside {width:674px; height:350px; margin-top:10px; float:left; background-color: #fff0b3;}
 
-	footer{width:995px; height:20px; margin-top:320px; background-color:#fbd634;}
+	footer{width:995px; height:20px; margin-top:380px; background-color:#fbd634;}
 
 	body{font-family:'여기어때 잘난체'; background-color: #fff0b3;}
+
+	.tit{font-size: 30px; display:inline;}
+
 	a:link { text-decoration:none;
     color:#fff0b3;}
     a:visited {text-decoration:none;
     color: #e52f2a;}
     a:hover{text-decoration:none;
     color:crimson;}
+
+	.rm:link { text-decoration:underline;
+    color:#e52f2a;}
+	.rm:visited {text-decoration:underline;
+    color: #000000;}
+    .rm:hover{text-decoration:underline;
+    color:#e52f2a;}
+
+	.review1{font-size:30px; color:#e52f2a;}
+	.review3{border-radius: 50px; width:250px; font-size:40px; margin-top:15px;
+		background-color: #e52f2a; color:white; text-align: center;}
+		.map4:link{ text-decoration:none;
+    color:white;}
+	.review4:visited {text-decoration:none;
+    color: white;}
+    .review4:hover{text-decoration:none;
+    color:white;}
+
+
+
 	#top {float:right;margin-top:-50px;}
 	li{display:inline; padding:10px; padding-top: 10px;}
 
@@ -111,20 +134,33 @@ border-color: #e52f2a;
 </nav>
 
 <section>
-	<b>로씨</b> 이탈리안 레스토랑<br>
-	주소:충남 천안시 동남구 호서대길 11<br>
-	영업시간:11:30~20:30<br>
-	브레이크타임:14:30~17:30<br>
-	전화번호:041-123-4567<br>
-	<a href="rossi review.html"> 리뷰 보기 &gt;</a> <a href="rossi map.html">지도 보기 &gt;</a> <br>
-	메뉴<br>
-	<img src="img/menu1.png" width="70"> <img src="img/menu2.png" width="70">
+	<div class="tit"> <b>로씨</b></div> 이탈리안 레스토랑<br><br>
+	주소:충남 천안시 동남구 호서대길 11<br><br>
+	영업시간:11:30~20:30<br><br>
+	브레이크타임:14:30~17:30<br><br>
+	전화번호:041-123-4567<br><br>
+	<a href="rossi review.html" class="rm"> 리뷰 보기 &gt;</a> <a href="rossi map.html" class="rm">지도 보기 &gt;</a> <br>
+	<br>메뉴<br>
+	<img src="img/rossi menu1.png" width="140"> <img src="img/rossi menu2.png" width="140">
 
 </section>
 
 <aside>
-	<img src="img/rossi review.png" width="250"> <br>
-	리뷰작성
+	<p class="review1">리뷰</p>
+
+		<p class="review11">안서동 맛집"로씨"<br>
+			글쓴이:황다인<br>
+			작성일자:2022.04.24<br>
+			크림파스타가 가장 맛있었어요.<br>
+			주차가 가능해서 좋았고 다음에 또 방문하려구요.<br>
+		</p>
+		<p class="review2"> 
+			<img src="img/comment1.jpg" width="150"><img src="img/comment2.jpg" width="150"><img src="img/comment3.jpg" width="150"></p>
+	<p class="review3">
+		<a class="review4" href="write.html">
+		리뷰작성
+	</a>
+	</p>
 </aside>
 
 <footer> </footer>

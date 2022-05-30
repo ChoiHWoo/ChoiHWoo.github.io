@@ -6,32 +6,32 @@
 <style>
 	*{padding:0px; margin:0px;}
 
-	header,nav,section,aside,footer {border:solid 1px red;}
+	header,nav,section,aside,footer {border:solid 1px #e52f2a;}
 
-	header {width:995px; height:100px; margin-top:10px; background-color: yellow;}
+	header {width:995px; height:100px; margin-top:10px; background-color: #fbd634;}
     
-    nav {width:995px; height:70px; margin-top:10px; ;text-align: center; background-color: beige;}
+    nav {width:995px; height:70px; margin-top:10px; ;text-align: center; background-color: #fff0b3;}
 
-	section {width:290px; height:300px; margin-top:10px;float:left; margin-right:29px; background-color:beige}
+	section {width:290px; height:300px; margin-top:10px;float:left; margin-right:29px; background-color:#fff0b3;}
 
-	aside {width:674px; height:300px; margin-top:10px; float:left; background-color: beige;}
+	aside {width:674px; height:300px; margin-top:10px; float:left; background-color: #fff0b3;}
 
-	footer{width:995px; height:20px; margin-top:320px; background-color:yellow;}
+	footer{width:995px; height:20px; margin-top:320px; background-color:#fbd634;}
 
-	body{font-family:'여기어때 잘난체';}
+	body{font-family:'여기어때 잘난체'; background-color: #fff0b3;}
 	a:link { text-decoration:none;
-    color:red;}
+    color:#fff0b3;}
     a:visited {text-decoration:none;
-    color: red;}
+    color: #e52f2a;}
     a:hover{text-decoration:none;
     color:crimson;}
-	#top {float:right;}
+	#top {float:right;margin-top:-50px;}
 	li{display:inline; padding:10px; padding-top: 10px;}
 
 	.search_wrap{width:500px;
 	margin:1px auto;}
 	.search_wrap .search_box{position:relative;
-	width: 730px;height:35px;
+	width: 700px;height:35px;
 margin-left:-150px;}
 	.search_wrap .search_box .input{position:absolute;
 	top:0;
@@ -47,19 +47,31 @@ margin-left:-150px;}
 	width:60px;
 	height:100%;
 	margin-top:-3px;
-	margin-right:-30px;
-	background-color: rgb(252, 4, 4);
+	margin-right:-80px;
+	background-color: #e52f2a(252, 4, 4);
 	z-index: 1;
 	cursor: pointer;}
 	
-.search_wrap.search_wrap_2 .search_box .btn{width:140px; height:45px; top:8px;right:5px; border-radius: 3px;
-color:rgb(236, 236, 232);
-font-size:30px;
+.search_wrap.search_wrap_2 .search_box .btn{width:93px; height:65px; top:-1px;right:3px; border-radius: 3px;
+color:#e52f2a(15, 15, 199);
+font-size:55px;
 display:flex;
 align-items: center;
 justify-content:center;}
-.search_wrap.search_wrap_2 .search_box .btn{border-radius:25px;}
-.search_wrap.search_wrap_2 .search_box .input{border-radius:50px;}
+.search_wrap.search_wrap_2 .search_box .btn{border-radius:50px;
+	}
+.search_wrap.search_wrap_2 .search_box .input{border-radius:60px;
+padding-left:80px;
+border-color: #e52f2a;
+}
+
+.btn1{left:-50;
+	position:absolute;
+	cursor: pointer;
+	z-index: 1;
+	margin-top:3px;
+	margin-left:20px;
+	}
 </style>
 
 </head>
@@ -67,10 +79,10 @@ justify-content:center;}
 
 <header>
 	<div id="logo">
-		<a href='yumyum main.html'><h1>YumYum</h1></a>
+		<a href='yumyum main.html'><img src="img/main.png" width="330"></a>
 	</div>
 	<div id="top">
-		<h3><a href='rossi.html'>맛집 검색</a>/ <a href='categori.html'>카테고리</a>/ <a href='community.html'>커뮤니티</a>/ <a href='newsletter.html'>뉴스레터</a></h3>
+		<h3><a href='rossi.html'>맛집 검색</a>/ <a href='categori.html'>카테고리</a>/ <a href='community.html'>커뮤니티</a>/ <a href='newsletter.html'>뉴스레터</a>/ <a href="location.html">지역 모아보기</a>/ <a href="foreign.html">해외맛집 검색</a> </h3>
 	</div>
 </header>
 
@@ -84,8 +96,11 @@ justify-content:center;}
 			
 			<div class="search_wrap search_wrap_2">
 				<div class="search_box">
+					<div class="btn1">
+						<img src="img/search1.png" width="60px">
+					</div>
 					<div class="btn btn_common">
-						Search
+						<img src="img/search bar.png" width="210px">
 					</div>
 					<input type="text" class="input" placeholder="search...">
 					

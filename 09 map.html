@@ -12,22 +12,42 @@
     
     nav {width:995px; height:70px; margin-top:10px; ;text-align: center; background-color: #fff0b3;}
 
-	section {width:290px; height:300px; margin-top:10px;float:left; margin-right:29px; background-color: #fff0b3;}
+	section {width:290px; height:350px; margin-top:10px;float:left; margin-right:29px; background-color: #fff0b3;}
 
-	aside {width:674px; height:300px; margin-top:10px; float:left; background-color: #fff0b3;}
+	aside {width:674px; height:350px; margin-top:10px; float:left; background-color: #fff0b3;}
 
-	footer{width:995px; height:20px; margin-top:320px; background-color:#fbd634;}
+	footer{width:995px; height:20px; margin-top:370px; background-color:#fbd634;}
 
-	body{font-family:'여기어때 잘난체';}
+	body{font-family:'여기어때 잘난체';background-color: #fff0b3;}
 	a:link { text-decoration:none;
-    color:#fff0b3;}
+    color:#f7a816;}
     a:visited {text-decoration:none;
     color: #e52f2a;}
     a:hover{text-decoration:none;
-    color:#fff0b3;}
+    color:#f79c15;}
+
+	.rm:link { text-decoration:underline;
+    color:#e52f2a;}
+	.rm:visited {text-decoration:underline;
+    color: #000000;}
+    .rm:hover{text-decoration:underline;
+    color:#e52f2a;}
+
+	.map4:link{ text-decoration:none;
+    color:white;}
+	.map4:visited {text-decoration:none;
+    color: white;}
+    .map4:hover{text-decoration:none;
+    color:white;}
+
 	#top {float:right;
 		margin-top:-50px;}
 	li{display:inline; padding:10px; padding-top: 10px;}
+
+	.map1{font-size:30px; color:#e52f2a;}
+	.map2{margin:0 auto;}
+	.map3{border-radius: 50px; width:150px; font-size:20px; 
+		background-color: #e52f2a; color:white; text-align: center;}
 
 	.search_wrap{width:500px;
 	margin:1px auto;}
@@ -83,7 +103,7 @@ border-color: #e52f2a;
 		<a href='yumyum main.html'><img src="img/main.png" width="330"></a>
 	</div>
 	<div id="top">
-		<h3><a href='rossi.html'>맛집 검색</a>/ <a href='categori.html'>카테고리</a>/ <a href='community.html'>커뮤니티</a>/ <a href='newsletter.html'>뉴스레터</a></h3>
+		<h3><a href='rossi.html'>맛집 검색</a>/ <a href='categori.html'>카테고리</a>/ <a href='community.html'>커뮤니티</a>/ <a href='newsletter.html'>뉴스레터</a>/ <a href="location.html">지역 모아보기</a>/ <a href="foreign.html">해외맛집 검색</a> </h3>
 	</div>
 </header>
 
@@ -112,22 +132,32 @@ border-color: #e52f2a;
 </nav>
 
 <section>
-	<b>09</b> 햄버거 레스토랑<br>
-	주소:충남 천안시 동남구 호서대길 11<br>
-	영업시간:11:30~20:30<br>
-	브레이크타임:14:30~17:30<br>
+	<b>09학번</b> 000 레스토랑<br>
+	주소:충남 천안시 동남구 각원사길 36 의상타운 1층 101호<br>
+	영업시간:11:00~20:00(매달 2,4번째 월요일 정기휴무)<br>
+	브레이크타임:X<br>
 	전화번호:041-123-4567<br>
-	<a href="09 review.html"> 리뷰 보기 &gt;</a> <a href="09 map.html">지도 보기 &gt;</a> <br>
+	<a href="09 review.html" class="rm"> 리뷰 보기 &gt;</a> <a href="09 map.html" class="rm">지도 보기 &gt;</a> <br>
 	메뉴<br>
-	<img src="img/menu1.png" width="70"> <img src="img/menu2.png" width="70">
+	<img src="img/09 menu1.PNG" width="130"> <img src="img/09 menu 2.PNG" width="130">
 
 </section>
 
 <aside>
-<img src="img/rossi map.png" width="250">
-<br>네비게이션
+	<p class="map1">지도</p>
+	
+	<p class="map2"> <a href="https://map.naver.com/v5/entry/place/1369257170?c=14157153.0005359,4415508.9924776,15,0,0,0,dh">
+		 <img src="img/09 map2.png" width="350"></a></p>
+<br><p class="map3">
+	<a class="map4" href="https://map.naver.com/v5/directions/-/14157153.000535931,4415508.992477568,09%ED%95%99%EB%B2%88%EC%8B%9D%EB%8B%B9,1369257170,PLACE_POI/-/car?c=14157153.0005359,4415508.9924776,15,0,0,0,dh">
+	네비게이션
+</a>
+</p>
 </aside>
 
 <footer> </footer>
 </body>
 </html>
+
+
+

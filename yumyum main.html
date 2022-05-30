@@ -4,7 +4,7 @@
 <meta charset='utf-8'>
 <title>yumyum</title>
 <style>
-	*{padding:0px; margin:0px;}
+	*{padding:0px; margin:0px; margin:0 auto;}
 
 	header,nav,section,aside,footer {border:solid 1px #e52f2a;}
 
@@ -22,7 +22,8 @@
 
 	#top {float:right;margin-top:-50px;}
 	body{font-family:'여기어때 잘난체';
-background-color: #fff0b3;}
+background-color: #fff0b3;
+}
 	a:link { text-decoration:none;
     color:red;}
     a:visited {text-decoration:none;
@@ -31,9 +32,17 @@ background-color: #fff0b3;}
     color:crimson;}
 	h4{border-radius: 50px; width:100px; background-color: red; color:white; text-align: center; font-size:18px;}
 	h2 {color:red;}
-	h1 {color:red;}
+	.reco {color:#e52f2a; font-size: 50px;margin-left:300px;}
+	.recom{margin-left:180px;font-size:42px;}
 	.class{margin-left:-20px;
 	margin-top:-50px;}
+
+	.recomm:link { text-decoration:none;
+    color:black;}
+    .recomm:visited {text-decoration:none;
+    color: black;}
+    .recomm:hover{text-decoration:none;
+    color:#e52f2a;}
 
 	.click{margin-left:0px;}
 
@@ -120,8 +129,8 @@ border-color: #e52f2a;
 </nav>
 
 <section>
-	<h2>오늘의 맛집 추천<img src="img/des.png" width="37"></h2> <br>
-	현재 내 위치:호서대학교 천안캠퍼스
+	<span class="reco">오늘의 맛집 추천<img src="img/des.png" width="37"></span> <br>
+	<span class="recom"> <a class="recomm" href="https://map.naver.com/v5/entry/place/11591686?c=14157456.6801068,4415235.3189011,15,0,0,0,dh"> 현재 내 위치:호서대학교 천안캠퍼스</a></span>
 </section>
 
 <footer>
@@ -135,7 +144,7 @@ border-color: #e52f2a;
 			로씨<br>
 			<img src="img/d.jpg" width="200">
 			<br><a href='rossi.html'><div class="click"><img src="img/click2.png" width="200" height="80"></div></a>
-			<img src="img/pointer.png" width="70">
+			
 		</li>
 		<li>
 			안서동야곱집<br>
